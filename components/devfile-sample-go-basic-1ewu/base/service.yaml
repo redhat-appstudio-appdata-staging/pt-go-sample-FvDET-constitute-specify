@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-1ewu
     app.kubernetes.io/part-of: pt-go-sample
   name: devfile-sample-go-basic-1ewu
-  namespace: lpardo-tenant
 spec:
   ports:
   - port: 8081

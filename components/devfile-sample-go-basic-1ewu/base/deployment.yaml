@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: devfile-sample-go-basic-1ewu
     app.kubernetes.io/part-of: pt-go-sample
   name: devfile-sample-go-basic-1ewu
-  namespace: lpardo-tenant
 spec:
   replicas: 1
   revisionHistoryLimit: 0
@@ -26,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-go-basic-1ewu
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads-stage/lpardo-tenant/pt-go-sample/devfile-sample-go-basic-1ewu@sha256:35cf2ad3c2ac7b4a3925012f96b31bb990cba250a1716b03f093bc4328d95cf8
         name: my-go
         ports:
         - containerPort: 8081
