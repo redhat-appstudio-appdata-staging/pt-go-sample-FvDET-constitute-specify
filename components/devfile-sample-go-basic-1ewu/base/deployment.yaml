@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: pt-go-sample
   name: devfile-sample-go-basic-1ewu
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
